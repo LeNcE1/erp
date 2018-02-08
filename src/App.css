@@ -1,0 +1,84 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Red-button {
+    background-color: #e10318;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 24px;
+   }
+
+.TextMedium {
+    font-size: small;
+    alignment: left;
+}
+
+.Avatar {
+    border-radius: 50%;
+}
+
+.Center{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.CenterHorisontal{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+}
+.CenterVertical{
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+.CenterItem{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    overflow: auto;
+}
